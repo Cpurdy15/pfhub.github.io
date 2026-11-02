@@ -1,6 +1,8 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  execute:
+    enabled: true
   github: pfhub/pfhub.github.io
 
 site:

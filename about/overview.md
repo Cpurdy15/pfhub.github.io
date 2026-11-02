@@ -2,10 +2,10 @@
 
 # Primary PFHub Goals
 
-- Provide a set of benchmark problems to compare and contrast codes for solving phase field equations.
-- Provide quality assurance for phase field codes based on performance and accuracy.
-- Increase the adoption of phase field methods in engineering and academic applications with the development of practical documentation.
-- Foster an engaged and integrated phase field community.
+1. Provide a set of benchmark problems to compare and contrast codes for solving phase field equations.
+2. Provide quality assurance for phase field codes based on performance and accuracy.
+3. Increase the adoption of phase field methods in engineering and academic applications with the development of practical documentation.
+4. Foster an engaged and integrated phase field community.
 
 # Details and Mentions
 
@@ -27,6 +27,11 @@ Please see the [community page][community page] for details of individuals invol
 The goal of this site is to not only generate benchmarks, but to also evaluate codes that solve phase field problems. We have a list of [suggested codes][suggested codes] that have been used to solve some of the benchmark problems.
 
 # FAQ
+<style>
+h2 {
+    color: black !important;
+}
+</style>
 ## Which Code Should I Use to Solve my Phase Field Problem?
 
 The right code for you depends on your familiarity with phase field methods and relevant software, hardware available and complexity of the phase field problem under consideration. We have a [list of phase field codes][suggested codes] and also a [list of benchmark results][benchmark results] that might help you evaluate which code might work best for you. Our objective is that the benchmarks will support users of the site in evaluating the suitability of codes for particular classes of phase field problems, but the user is the final arbiter in this process.
@@ -53,7 +58,7 @@ An advanced user (e.g., early-career researcher) with experience in phase-field 
 - **Are my results in line?** To help the experienced user compare their performance against other users of the same code, the website provides the following:
     - A simple process for submitting simulation results with rapid feedback: new work appears in the graphs and tables on a test website, allowing iteration if the results are out of line.
     - Access to the source code for prior submissions
-- **IS something better out there?** To help the experienced user drill down on options, the website provides the following:
+- **Is something better out there?** To help the experienced user drill down on options, the website provides the following:
     - A list of [suggested codes][suggested codes].
     - A dashboard showing how many results have been submitted using each code for each benchmark problem.
     - Visual summaries of relative performance of these codes on each benchmark problem.
@@ -80,18 +85,18 @@ A faculty adviser who is continually having new researchers join their research 
     - Problems with increasing complexity.
     - Problems with unique aspects such as coupled mechanics or anisotropic surface energy.
 
-[Andrea]:(https://pages.nist.gov/pfhub/community/#andrea-jokisaari)
-[Peter]: (https://pages.nist.gov/pfhub/community/#peter-voorhees)
-[Jon]: https://pages.nist.gov/pfhub/community/#jon-guyer
-[Jim]: https://pages.nist.gov/pfhub/community/#james-warren
-[Olle]: https://pages.nist.gov/pfhub/community/#olle-heinonen
+[Andrea]: http://localhost:3000/community/#Andrea-Jokisaari
+[Peter]: http://localhost:3000/community/#Peter-Voorhees
+[Jon]: http://localhost:3000/community/#Jon-Guyer
+[Jim]: http://localhost:3000/community/#Jim-Warren
+[Olle]: http://localhost:3000/community/#Olle-Heinonen
 [benchmark journal]: http://dx.doi.org/10.1016/j.commatsci.2016.09.022
 [benchmark news]: http://chimad.northwestern.edu/news-events/articles/2016/PhaseField_BenchMark.html
 [benchmark overview]: http://materials.typepad.com/mrs_meeting_scene/2017/11/tc05-uncertainty-quantification-in-multiscale-materials-simulation-1.html
-[involvement guide]: https://pages.nist.gov/pfhub/INVOLVEMENT
-[community page]: https://pages.nist.gov/pfhub/community
-[suggested codes]: https://pages.nist.gov/pfhub/codes
-[benchmark results]: https://pages.nist.gov/pfhub/simulations/#simulations
+[involvement guide]: http://localhost:3000/getinvolved
+[community page]: http://localhost:3000/community
+[suggested codes]: http://localhost:3000/suggestedcode
+[benchmark results]: https://pfhub.github.io/pfhub-benchmarks/
 [chat]: https://gitter.im/usnistgov/chimad-phase-field
 [issue]: https://github.com/usnistgov/pfhub/issues/new
 [video]: https://pages.nist.gov/pfhub/wiki/voorhees-lectures/
