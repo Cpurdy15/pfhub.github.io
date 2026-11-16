@@ -15,6 +15,8 @@ site:
       url: https://pfhub.github.io/pfhub-benchmarks/
     - title: Recommended Practices
       url: https://pages.nist.gov/pf-recommended-practices/intro.html
+    - title: Workshops
+      url: https://github.com/usnistgov/pfhub/wiki#Workshops
     - title: About
       children:
         - title: Overview
@@ -31,8 +33,6 @@ site:
       children:
         - title: Home
           url: https://github.com/usnistgov/pfhub/wiki
-        - title: Workshops
-          url: https://github.com/usnistgov/pfhub/wiki#Workshops
         - title: Publications
           url: https://github.com/usnistgov/pfhub/wiki#phase-field-benchmark--pfhub-publications
         - title: Lectures
