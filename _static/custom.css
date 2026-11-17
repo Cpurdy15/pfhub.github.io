@@ -249,3 +249,7 @@ article.content li > ol {
 article.content ol li::marker {
     color: #000000 !important;
 }
+/* Align FAQ headings with paragraphs */
+h3 {
+    transform: translateX(338px) !important;
+}
